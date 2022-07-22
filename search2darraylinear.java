@@ -12,9 +12,9 @@ public class tester {
         System.out.println(Arrays.toString(ans));
     }
     static int[] search2d(int[][] arr, int target){
+        //In the for loops below, i=rows and j=columns
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-//                System.out.print(Arrays.toString(arr2d[j])+" ");
                 if (arr[i][j] == target){
                     System.out.print("Element found at index ");
                     return new int[] {i,j};
