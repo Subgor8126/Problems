@@ -17,6 +17,7 @@ public class tester {
             for (int j = 0; j < arr[i].length; j++) {
                 if (arr[i][j] == target){
                     System.out.print("Element found at index ");
+                    //new object for the answer is created because the array {i,j} is not initialised
                     return new int[] {i,j};
                 }
             }
