@@ -24,6 +24,11 @@ public class BinarySearchCeiling {
             }
 
         }
-        return arr[start];
+        if (target>=arr.length-1){
+            return -1;
+        }
+        else{
+            return arr[start];
+        }
     }
 }
