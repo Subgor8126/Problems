@@ -28,6 +28,10 @@ public class BinarySearchCeiling {
             return -1;
         }
         else{
+            // here we return start because if the element is not found in the array
+            // it means that the condition of the while loop is violated
+            // and start is actually ahead of the mid element, because start will
+            // be greater than end.
             return arr[start];
         }
     }
